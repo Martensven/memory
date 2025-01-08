@@ -1,0 +1,18 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    color: beige;
+    text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+    border: 2px rgb(54, 54, 54) dotted;
+    font-size: larger;
+}
