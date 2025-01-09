@@ -8,11 +8,22 @@
 .card {
     width: 150px;
     height: 150px;
-    background-color: white;
-    display: grid;
-    align-items: center;
-    color: beige;
-    text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+    background-color: rgb(81, 255, 0);
     border: 2px rgb(54, 54, 54) dotted;
-    font-size: larger;
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
